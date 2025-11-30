@@ -55,7 +55,7 @@ Copy .env.example:
 
 bash
 Copy code
-cp apps/mcp-ts/.env.example apps/mcp-ts/.env
+cp apps/backend/.env.example apps/backend/.env
 
 bash
 Copy code

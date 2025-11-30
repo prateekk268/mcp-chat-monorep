@@ -1,0 +1,19 @@
+{
+  "name": "mcp-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@10.2.4",
+  "workspaces": [
+    "apps/backend",
+    "apps/client"
+  ],
+  "devDependencies": {
+    "turbo": "^2.6.1"
+  },
+  "scripts": {
+    "mcp": "",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "clean": "turbo run clean"
+  }
+}
